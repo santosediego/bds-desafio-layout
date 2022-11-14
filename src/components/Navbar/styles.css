@@ -1,0 +1,15 @@
+.main-nav {
+    padding-left: 20px;
+    min-height: 70px;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 170px;
+    justify-content: space-between;
+}
+
+.main-menu a.active {
+    font-weight: bold;
+}
