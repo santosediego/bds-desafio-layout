@@ -19,7 +19,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone <link-do-repositorio>
+git clone git@github.com:santosediego/bds-desafio-layout.git
 
 # entrar na pasta do projeto front end web
 cd bds-desafio-layout
