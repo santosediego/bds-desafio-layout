@@ -3,6 +3,7 @@ import './styles.css';
 
 import { ReactComponent as BannerImage } from 'assets/images/banner-image.svg';
 import Button from 'components/Button';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -17,7 +18,9 @@ function Home() {
                 </div>
             </div>
             <div className="cta-container">
-                <Button text='Ver catálogo' />
+                <Link to={'/catalog'}>
+                    <Button text='Ver catálogo' />
+                </Link>
                 <div className='text-cta'>
                     <p>Comece agora a navegar</p>
                 </div>
