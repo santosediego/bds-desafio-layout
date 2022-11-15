@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-A proposta do desafio é criar um layout com rotas conforme o design disponibilizado, contemplando todos os breakpoints do desing.
+A proposta do desafio é criar um layout com rotas conforme o design disponibilizado, contemplando todos os breakpoints do desing seguindo o modelo de desenvolvimento mobile first.
 
 ### Protótipo do figma:
 
@@ -12,6 +12,8 @@ https://www.figma.com/file/H1SC2bo3Zaycm3mJxkkMC4/bds-desafio-layout
 
 - HTML / CSS / JS / TypeScript
 - ReactJS
+- Bootstrap
+- React Router Dom
 
 ## Como executar o projeto
 
