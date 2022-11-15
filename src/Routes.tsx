@@ -1,20 +1,21 @@
 import React from 'react';
 import Navbar from 'components/Navbar';
 import Home from 'pages/Home';
+import Catalog from 'pages/Catalog';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 
 function Routes() {
     return (
         <BrowserRouter>
-        <Navbar />
+            <Navbar />
             <Switch>
                 <Route exact path="/">
                     <Home />
                 </Route>
                 <Route path="/catalog">
-                    <div>Em construção</div>
+                    <Catalog />
                 </Route>
-                <Redirect from="*" to="/" exact/>
+                <Redirect from="*" to="/" exact />
             </Switch>
         </BrowserRouter>
     );
