@@ -1,0 +1,42 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 21px 15px;
+    border-radius: 10px;
+    background-color: #EDEDED;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-description {
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.product-description h6 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.product-description p {
+    margin-top: 14px;
+}
+
+.product-button {
+    width: 100%;
+}
+
+.product-button Button {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .product-card {
+        margin-top: 30px;
+    }
+}
