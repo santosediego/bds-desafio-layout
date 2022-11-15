@@ -1,0 +1,7 @@
+.default-button button {
+    height: 40px;
+    padding: 0 35px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
