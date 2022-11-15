@@ -13,3 +13,11 @@
 .main-menu a.active {
     font-weight: bold;
 }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../../assets/images/navbar-toggler-icon.svg);
+}
